@@ -1,0 +1,128 @@
+<html>
+<head>
+
+ <title></title>
+ <style>
+  *{
+    margin:0px;
+	padding:0px;
+  }
+  .navbar{
+     height:50px;
+	 width:100%;
+	 background:red;
+	 display:flex;
+  }
+  .a1{
+      height:50px;
+	  width:30%;
+	  background:black;
+	  color:yellow;
+  }
+  
+  h1{
+     text-align:center;
+	 line-height:50px;
+	 
+  }
+  .a2{
+      height:50px;
+	  width:50%;
+	  background:gray;
+  }
+  ul li{
+        list-style:none;
+		float:left;
+		width:227px;
+		line-height:50px;
+		text-align:center;
+		
+  }
+  .men li{
+     display:none;
+  }
+  .wear:hover .men li{
+      display:block;
+	  background:black;
+	  color:white;
+  }
+  .a3{
+      height:50px;
+	  width:20%;
+	  background:green;
+  }
+  @media(max-width:600px){
+  
+  .navbar{
+      height:300px;
+	  width:100%;
+	  background:green;
+	  display:flex;
+	  position:relative;
+  }
+  .a1{ 
+      height:100px;
+	  width:100%;
+	  background:blue;
+      position:absolute;	  
+  }
+  h1{
+     font-size:40px;
+	 padding-top:15px;
+  }
+  .a2{
+     height:200px;
+	width:100%;
+	 background:pink;
+	 position:absolute;
+	 margin-top:100px;
+	 
+  }
+  ul li{
+        display:none;
+		float:none;
+  }
+  .a3{
+     height:20px;
+	 width:100%;
+	 background:red;
+  }
+  }
+ </style>
+</head>
+<body>
+<div class="navbar">
+    <div class="a1">
+	   <h1>Dream Zone</h1>
+	</div>
+    <div class="a2"> 
+	    
+	    <ul>
+		  <li class="wear">Caps Wear
+		    <ul class="men">
+			  <li>Sports Caps</li>
+			  <li>Gym Caps</li>
+			  <li>Fancy Caps</li>
+			</ul>
+		  </li>
+		  <li class="wear">Eye Wear
+		      <ul class="men">
+			     <li>Under 16 Age</li>
+			     <li>Under 21 Age</li>
+			     <li>Under 36 Age</li>
+			  </ul>
+		  </li>
+		  <li class="wear">Mens Wear
+		     <ul class="men">
+			   <li>Sports Wear</li>
+			   <li>party Wear</li>
+			   <li>Regular Wear</li>
+			 </ul>
+		  </li>
+		 </ul>
+	</div>
+    <div class="a3"></div>
+ </div>
+</body>
+</html>
+

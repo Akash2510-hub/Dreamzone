@@ -1,0 +1,252 @@
+    
+	
+	   	*{
+	     padding:0px;
+		 margin:0px;
+	   }
+	   #section{
+	            height:600px;
+				width:100%;
+				background:red;
+				position:relative;
+	   }
+	   #section div{
+	         height:100%;
+			 width:100%;
+			 
+	   }
+	   #demo{
+	      height:400px;
+		  width:100%;
+		 
+	   }
+	   .carousel-inner img{
+	          height:600px;
+			  width:100%;
+			  background-size:100% 100%;
+			 
+	   }
+	   #section1{
+	       height:1500px;
+		   width:100%;
+		   display:flex;
+		   flex-wrap:wrap;
+		   align-item:center;
+		   justify-content:center;
+		   
+	   }
+	   #section1 div{
+	       height:320px;
+		   width:400px;
+		   background:black;
+		   margin:10px; 
+	   }
+	   #section1 button{
+	         width:360px;
+			 height:40px;
+			 margin:15px 0px 0px 15px ;
+	   }
+	   #section1#blur.active{
+		   filter:blur(20px);
+	   }
+	   #m1{
+	       height:50px;
+		   width:300px;
+	   }
+	   img{
+	      display:flex;
+	      align-item:center;
+		  justify-content:center;
+	   }
+	   #section1 p{
+	      font-size:10px;
+		 
+	   }
+	   #section1 u{
+	      color:yellow;
+		  margin-left:20px;
+		  font-size:50px;
+	   }
+	   #section1 i{
+	     color:yellow;
+	   }
+	   #section1 ,b{
+	     font-size:17px;
+		 padding-left:20px;
+		 color:pink;
+	   }
+	   #section2{
+	       height:1600px;
+		   width:100%;
+		   display:flex;
+		   flex-wrap:wrap;
+		   align-item:center;
+		   justify-content:center;
+	   }
+	   #section2 div{
+	      
+		  height:350px;
+		  width:400px;
+		  margin:10px;
+		 
+		  
+	   }
+	   #section2 button{
+	      width:260px;
+		  height:40px;
+		  margin:20px 0px 20px 70px;
+		  border-radius:20px;
+	   }
+	   #section2 u{
+	       font-size:40px;
+		   margin:10px;
+		   color:red;
+	   }
+	   #section2 i{
+	        color:orange;
+	   }
+	   #section3{
+	       height:2000px;
+		   width:100%;
+		   display:flex;
+		   flex-wrap:wrap;
+		   align-item:center;
+		   justify-content:center;
+	    }
+		#section3 div{
+		     height:450px;
+			 width:350px;
+			 margin:10px;
+			 background:black;
+		}
+		#section3 button{
+		    width:300px;
+			height:40px;
+			margin:1px 0px 0px 20px;
+		}
+		#section3 i{
+		    color:orange;
+		}
+		#section3 u{
+		   color:yellow;
+		   font-size:25px;
+		}
+	
+		
+		#section5{
+		    height:500px;
+			width:100%;
+		}
+		.left{
+		    height:500px;
+			width:100%;
+			background:pink;
+			background-image:url("shop3.webp");
+			background-size:100% 100%;
+			padding-left:50px;
+		}
+		.left h1{
+	
+			color:rgb(255,180,100);
+			padding:10px 0px 0px 20px;
+		}
+		label{
+		     font-size:20px;
+			 margin:10px;
+			 color:pink;
+			 
+		}
+		input{
+		    width:200px;
+			height:30px;
+			text-align:center;
+			font-size:15px;
+		
+		}
+		.input1{
+			margin:10px 0px 0px 10px ;
+		}
+		button{
+		   width:150px;
+		   height:40px;
+		   text-align:center;
+		   background:pink;
+           border-radius:3px solid red;		   
+		   }
+		 button:hover{
+			 background:black;
+			 color:white;
+			
+			 
+		 }
+	    #button{
+			margin:30px 0px 0px 30px;
+			border-radius:20px;
+			font-size:20px;
+			font-family:bold;
+		}
+		#section6{
+			color:rgb(255,180,100);
+			margin-top:35px;
+			margin-left:25px;
+		}
+		#section6 h1{
+		  font-size:20px;
+		  margin-top:20px;
+		  
+		}
+		
+		#section6 a{
+			text-align:center;
+			
+		}
+	    #section6 i{
+			color:pink;
+			margin-left:18px;
+			
+		}
+		#section6 i:hover{
+			color:rgb(15,180,80)
+		}
+	   @media(max-width:600px){
+	   
+	    nav{
+			height:220px;
+			width:100%;
+		}
+		.navbar-nav{
+			margin-left:40%;
+		}
+		#section{
+			height:500px;
+			width:100%;
+			background:red;
+			margin-top:180px;
+		}
+		#section1{
+			height:4000px;
+			width:100%;
+		}
+		#section2{
+			height:4500px;
+			width:100%;
+		}
+		#section3{
+			height:6000px;
+			width:100%;
+		}
+		#section5{
+			height:400px;
+			width:100%;
+			
+		}
+		#section6{
+			height:500px;
+			width:100%;
+		}
+		input{
+			height:30px;
+			width:130px;
+		}
+	   }
+	

@@ -1,0 +1,181 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Instrument+Serif&family=Poppins:wght@800&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing:border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all.2s linear;
+    text-transform: capitalize;
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    background-color: #fff;
+}
+.container{
+     max-width:1200px;
+     margin: 0 auto;
+     padding:3rem 2rem;         
+}
+.title{
+    font-size:50px;
+    color: #444;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap:2rem;
+}
+.product{
+    text-align: center;
+    padding:3rem 2rem;
+    background-color: #fff;
+    box-shadow: 0.5rem 1rem rgb(0,0,0,.1);
+    outline:.1rem solid #ccc;
+    outline-offset:-1.5rem;
+    cursor: pointer;
+}
+.product:hover{
+    outline:.2rem solid #222;
+    outline-offset:0;
+}
+.product img{
+    height:20rem;
+}
+.product:hover img{
+    transform: scale(.9);
+}
+.product h3{
+    padding: 3rem 0;
+    font-size: 2rem;
+    color: #444;
+}
+.product:hover h3{
+    color: #27ae27;
+}
+.price {
+    font-size: 2rem;
+    color: #444;
+}
+
+.products-previous{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    min-height:100vh;
+    width:100%;
+    background-color: rgb(0,0,0,.8);
+    display:none;
+    align-items: center;
+    justify-content: center;
+}
+.products-previous .previous{
+    display:none;
+    padding: 2rem;
+    text-align: center;
+    background: #fff;
+    position: relative;
+    margin:2rem;
+    width: 50rem;
+}
+.products-previous .previous.active{
+    display:inline-block;
+}
+.products-previous .previous img{
+    height:28rem;
+}
+.fa-times{
+    position: absolute;
+    top:1rem;
+    right: 1.5rem;
+    cursor: pointer;
+    color: #444;
+    font-size:4rem;
+}
+.fa-times:hover{
+    transform:rotate(180deg);
+}
+.products-previous .previous h3{
+    color: #444;
+    padding:1rem 0;
+    font-size: 2.5rem;
+}
+.star{
+    padding: .4rem 0;
+    font-size:1.9rem;
+}
+.star i{
+    
+    color: #27ae27;
+}
+.star span{
+    color:#111;
+}
+.previous p{
+    line-height:1.5;
+    font-size:1.6rem;
+    padding: 1rem 0;
+    color: #777;
+}
+.previous.price{
+    padding: 1rem 0;
+    font-size: 2.3rem;
+    color: #27ae60;
+}
+.buttons{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.buttons a{
+    flex: 1 1 16rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+    color: #444;
+    border: .8rem solid #444;
+
+}
+.card{
+    
+    color: #fff;
+}
+.card:hover{
+    background-color: #444;
+    color: #fff;
+}
+.buy{
+
+    color: #fff;
+}
+ .buy:hover{
+    background-color: #444;
+    color: #fff;
+} 
+@media(max-width:991px){
+html{
+    font-size: 55%;
+}    
+}
+@media(max-width:768px){
+    .previous img{
+        height: 25rem;
+    }    
+    }
+ @media(max-width:450px){
+        html{
+            font-size: 50%;
+        }    
+        }

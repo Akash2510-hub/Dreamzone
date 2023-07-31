@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+	table, tr, td, tbody, thead {
+		padding: 0px;
+		font-family: Arial, Helvetica,sans-serif;
+		font-size: 11px;
+		border-spacing: 0px;	
+	}
+	
+	img {
+		border: 0px;
+	}
+
+	table {
+	}
+	
+  .ext_arrow {
+    height: 18px;
+    width: 18px;
+    float: right;
+    margin-right: 5px;
+  }
+  
+  
+	.man_name {
+    color: #9a9a9a;
+		border-bottom:1px #9a9a9a solid;
+	}
+	
+	.man_link {
+		text-decoration: none;
+	}		
+	
+	
+	#single_products {
+		font-family: Arial, Helvetica,sans-serif;
+		font-size: 11px;
+	}
+	
+
+	.content {
+		position: relative; 
+		background-color: #F6F6F6; 
+		width: 240px; 
+		height: 120px; 
+		padding: 0px 5px;
+	}
+		
+	.content_description {
+		padding-top: 5px;
+	}
+  
+  
+	.pg1_link {
+		color: #a4a1a1;
+    text-decoration: none;
+	}
+  
+  .product_image {
+		position: relative;
+		height: 150px;
+		width: 148px;
+		background-color: #ffffff;
+	    margin-right: 2px;
+	    display:block;
+	}
+
+	#man_logo {
+		width: 150px;
+		text-align: center;
+	}	
+	
+	.footer {
+		height: 37px; 
+    font-size: 18px;
+    color: #a4a1a1;
+		vertical-align: middle;
+		text-transform: lowercase;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+	}
+	
+	.header {
+		height: 37px;
+		background-color: #ffffff; 
+    	color: #000000;
+    	font-size: 22px;
+		vertical-align: middle;
+		font-family: "Lato";
+		font-weight: 600;
+	}
+
+	.content_teaser {
+		color: #000000;
+		font-size: 11px;
+		display: inline-block;
+		font-family: "Lato";
+		font-weight: 600;
+		text-transform: uppercase;
+		background-color: transparent;
+		height: 10%;
+		width: 148px;
+		text-align: center;
+		margin-bottom: 2px;
+	}
+
+.content_teaser:hover {
+	background-color: #FFFE01;
+}
