@@ -178,7 +178,7 @@ img{
 }
 .service-list div:hover{
     background-color: #ff04ff;
-    transform: translate(-15px);
+    transform: translateY(-15px);
     color: black;
 }
 
