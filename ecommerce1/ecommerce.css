@@ -40,7 +40,7 @@ body{
 }
 .product{
     text-align: center;
-    padding:3rem 2rem;
+    padding:1rem 2rem;
     background-color: #fff;
     box-shadow: 0.5rem 1rem rgb(0,0,0,.1);
     outline:.1rem solid #ccc;
