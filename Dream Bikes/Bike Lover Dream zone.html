@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/index1.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bike Lover Dream zone</title>
+
+    
+    
+<link href="./Bike Lover Dream zone_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"><link rel="stylesheet" href="./Bike Lover Dream zone_files/index1.css"></head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1 id="logo">
+                        Bike Lover Dream zone
+                    </h1>
+                </div>
+                <div class="col-md-8">
+                    <ul id="menu" class="float-md-right">
+                        <li><a href="http://127.0.0.1:5500/index1.html#home">Home</a></li>
+                        <li><a href="http://127.0.0.1:5500/index1.html#about">About</a></li>
+                        <li><a href="http://127.0.0.1:5500/index1.html#ouservice">Our service</a></li>
+                        <li><a href="http://127.0.0.1:5500/index1.html#contact%20us">Contact Us</a></li>
+                        <li><a href="http://127.0.0.1:5500/bikelover">Bikelover</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="banner" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="banner-title">
+                        <h1>welcome to Bike Lover Dream Zone @2023</h1>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime animi itaque hic unde,
+                            dolorem quidem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./Bike Lover Dream zone_files/bootstrap.bundle.min.js.download" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
